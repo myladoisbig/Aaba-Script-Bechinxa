@@ -1,1 +1,17 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 
+_G.ScriptAbuseDetectedUser = {
+    "9302537943", --Luckky1357 Unauthorized Script Execution Detected
+    "1080985156", --Execution logs not found but sakhalagyo mujidekhi
+    "",
+}
+
+
+for i = 1, #_G.ScriptAbuseDetectedUser do
+	local id = tonumber(_G.ScriptAbuseDetectedUser[i])
+	if id and id == player.UserId then
+		player:Kick("Script abuse detected. If you believe this is an error, DM the developer with your UserId to appeal.")
+		return
+	end
+end
