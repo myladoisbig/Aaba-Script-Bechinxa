@@ -4,7 +4,8 @@ local player = Players.LocalPlayer
 _G.ScriptAbuseDetectedUser = {
     "9302537943", --Luckky1357 Unauthorized Script Execution Detected
     "1080985156", --Execution logs not found but sakhalagyo mujidekhi
-    "3030463166", --ShitHead
+    --"3030463166", --ShitHead
+	"",
 }
 
 
