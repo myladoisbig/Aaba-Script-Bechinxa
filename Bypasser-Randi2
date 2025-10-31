@@ -10,6 +10,7 @@ _G.ScriptAbuseDetectedUser = {
 
 
 _G.AutoQuestDiggaCustom = {
+	"4d8f81d3-0ed0-11f0-a186-806e6f6e6963", --TestingPurpose My
     "9491362f-82d0-11f0-a089-806e6f6e6963", --first purchase of custom auto quest 0504015
     "",
 	"",
