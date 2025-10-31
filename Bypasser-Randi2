@@ -9,6 +9,13 @@ _G.ScriptAbuseDetectedUser = {
 }
 
 
+_G.AutoQuestDiggaCustom = {
+    "9491362f-82d0-11f0-a089-806e6f6e6963", --first purchase of custom auto quest 0504015
+    "",
+	"",
+}
+
+
 for i = 1, #_G.ScriptAbuseDetectedUser do
 	local id = tonumber(_G.ScriptAbuseDetectedUser[i])
 	if id and id == player.UserId then
