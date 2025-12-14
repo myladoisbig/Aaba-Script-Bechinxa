@@ -26,4 +26,4 @@ for i = 1, #_G.ScriptAbuseDetectedUser do
 end
 
 
-getgenv().GetHugeSimCustomK = "XH84BHK"
+getgenv().GetHugeSimCustGitHub = "XH84BHK"
