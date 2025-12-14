@@ -24,3 +24,6 @@ for i = 1, #_G.ScriptAbuseDetectedUser do
 		return
 	end
 end
+
+
+getgenv().GetHugeSimCustomK = "XH84BHK"
